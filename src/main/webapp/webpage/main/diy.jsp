@@ -454,11 +454,7 @@ fa fa-times
         <tr>
             <td class="value"><input type="radio" value="default" name="indexStyle" /> <span>经典风格</span></td>
         </tr>
-        <!--
-        <tr>
-            <td class="value"><input type="radio" value="bootstrap" name="indexStyle" /> <span>BootStrap风格</span></td>
-        </tr>
-        -->
+      
         <tr>
             <td class="value"><input type="radio" value="shortcut" name="indexStyle" /> <span>ShortCut风格</span></td>
         </tr>

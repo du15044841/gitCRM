@@ -176,9 +176,7 @@ a:hover {
 <tr>
     <td align="left" style="vertical-align: text-bottom">
     <img src="plug-in/login/images/logo.jpg"> 
-    <!--
-        <img src="plug-in/login/images/toplogo.png" width="550" height="52" alt="">-->
-        <div style="position: absolute; top: 75px; left: 33px;">JEECG Framework <span style="letter-spacing: -1px;"> <t:mutiLang langKey="system.version.number"/></span></div>
+        <div style="position: absolute; top: 75px; left: 33px;">${currentOrgName }<span style="letter-spacing: -1px;"></span></div>
     </td>
     <td align="right" nowrap>
         <table border="0" cellpadding="0" cellspacing="0">
@@ -222,9 +220,6 @@ a:hover {
                             <div onclick="add('<t:mutiLang langKey="common.change.style"/>','userController.do?changestyle','',550,200)">
                                 <t:mutiLang langKey="common.change.style"/>
                             </div>
-                            <div onclick="window.open('http://yun.jeecg.org')">
-                       		 	云应用中心
-                   			 </div>
                              <div onclick="clearLocalstorage()">
                        		 	<t:mutiLang langKey="common.clear.localstorage"/>
                    			 </div>
@@ -242,7 +237,14 @@ a:hover {
                     </div>
                 </td>
             </tr>
-            <tr style="height: 80px;">
+			<tr style="height: 60px;">
+			 	<td style="">
+					<ul class="nav navbar-top-links navbar-right">
+						<%@include file="/webpage/softphone/softphone.jsp"%>
+					</ul>
+				</td>
+			</tr>
+			<tr style="height: 80px;">
                 <td colspan="2">
                     <ul class="shortcut">
                         <!-- 动态生成并赋值过来 -->
@@ -309,9 +311,10 @@ a:hover {
     <div align="center" style="color: #1fa3e5; padding-top: 2px">&copy;
         <t:mutiLang langKey="common.copyright"/>
         <span class="tip">
-            <a href="http://www.jeecg.org" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
+           <%--  <a href="http://www.jeecg.org" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
             (推荐谷歌浏览器，获得更快响应速度) 技术支持:
             <a href="#" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
+         --%>
         </span>
     </div>
 </div>

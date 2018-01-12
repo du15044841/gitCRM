@@ -7,7 +7,7 @@ import org.jeecgframework.web.system.service.MutiLangServiceI;
 import org.jeecgframework.web.system.service.SystemService;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
-
+import com.jeecg.callcenter.cmsgateway.service.AgentService;
 
 /**
  * 系统初始化监听器,在系统启动时运行,进行一些初始化工作
@@ -53,6 +53,8 @@ public class InitListener  implements javax.servlet.ServletContextListener {
 		 * 第四部分：加载配置的数据源信息
 		 */
 		dynamicDataSourceService.initDynamicDataSource();
+		
+		AgentService.init();
 	}
 
 }

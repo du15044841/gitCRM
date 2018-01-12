@@ -54,9 +54,7 @@
         </p>
         <br>
         <p>
-        	<a class="btn btn-success btn-outline" href="http://yun.jeecg.org" target="_blank">
-                <i class="fa fa-cloud"></i> 云应用中心
-            </a>
+        	 
             <a class="btn btn-white btn-bitbucket" href="http://www.jeecg.org/" target="_blank">
                 <i class="fa fa-qq"> </i> 联系我们
             </a>

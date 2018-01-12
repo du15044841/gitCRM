@@ -62,88 +62,16 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="icon-leaf"></i>
-							JEECG 微云快速开发平台
+							JEECG 11
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
 
-				<div class="navbar-header pull-right" role="navigation">
+				<div class="navbar-header pull-right" >
 					<ul class="nav ace-nav">
 					<!-- update-start--Author: chenj Date:20160812 for: TASK #1269 【ace h+】风格无用的右上角功能隐藏，暂时注释掉 -->
-					<!-- 
-						<li class="grey">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-								<i class="icon-tasks"></i>
-								<span class="badge badge-grey">4</span>
-							</a>
-
-							<ul class="pull-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
-								<li class="dropdown-header">
-									<i class="icon-ok"></i>
-									还有4个任务完成
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">软件更新</span>
-											<span class="pull-right">65%</span>
-										</div>
-
-										<div class="progress progress-mini ">
-											<div style="width:65%" class="progress-bar "></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">硬件更新</span>
-											<span class="pull-right">35%</span>
-										</div>
-
-										<div class="progress progress-mini ">
-											<div style="width:35%" class="progress-bar progress-bar-danger"></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">单元测试</span>
-											<span class="pull-right">15%</span>
-										</div>
-
-										<div class="progress progress-mini ">
-											<div style="width:15%" class="progress-bar progress-bar-warning"></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">错误修复</span>
-											<span class="pull-right">90%</span>
-										</div>
-
-										<div class="progress progress-mini progress-striped active">
-											<div style="width:90%" class="progress-bar progress-bar-success"></div>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										查看任务详情
-										<i class="icon-arrow-right"></i>
-									</a>
-								</li>
-							</ul>
-						</li>-->
-						<!-- update-end--Author: chenj Date:20160812 for: TASK #1269 【ace h+】风格无用的右上角功能隐藏，暂时注释掉 -->
+					<%@include file="/webpage/softphone/softphone.jsp" %> 
+					<!-- update-end--Author: chenj Date:20160812 for: TASK #1269 【ace h+】风格无用的右上角功能隐藏，暂时注释掉 -->
 
 						<li class="purple">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -241,13 +169,6 @@
 									<a href="javascript:add('<t:mutiLang langKey="common.change.style"/>','userController.do?changestyle','',550,250)">
 										<i class="icon-cog"></i>
 										 <t:mutiLang langKey="common.my.style"/>
-									</a>
-								</li>
-								
-								<li>
-									<a href="http://yun.jeecg.org" target="_blank">
-										<i class="icon-cloud"></i>
-										 云应用中心
 									</a>
 								</li>
 								

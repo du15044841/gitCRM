@@ -103,7 +103,7 @@
 		<description>在线用户监听器</description>
 		<listener-class>org.jeecgframework.web.system.listener.OnlineListener</listener-class>
 	</listener>
-
+  
 	<servlet>
 		<description>spring mvc servlet</description>
 		<servlet-name>springMvc</servlet-name>
@@ -123,7 +123,7 @@
 		<servlet-name>springMvc</servlet-name>
 		<url-pattern>*.action</url-pattern>
 	</servlet-mapping>
-	
+ 
 
 	<!-- 集成cxf webservice接口
 	 <servlet>  
@@ -162,7 +162,7 @@
 		<servlet-name>druidStatView</servlet-name>
 		<url-pattern>/webpage/system/druid/*</url-pattern>
 	</servlet-mapping>
-	
+
 	<!-- 验证码 -->
     <servlet>
         <servlet-name>RandCodeImage</servlet-name>

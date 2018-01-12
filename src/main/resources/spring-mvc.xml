@@ -77,6 +77,7 @@
     <bean id="jeecgTemplateExcelView" class="org.jeecgframework.poi.excel.view.JeecgTemplateExcelView" />
     <bean id="jeecgTemplateWordView" class="org.jeecgframework.poi.excel.view.JeecgTemplateWordView" />
     <bean id="jeecgMapExcelView" class="org.jeecgframework.poi.excel.view.JeecgMapExcelView" />
+	
 	<!-- 方言 -->
 	<bean id="dialect"
 		class="org.jeecgframework.core.common.hibernate.dialect.DialectFactoryBean">
@@ -133,6 +134,8 @@
 						<!-- 菜单样式图标预览 -->
 						<value>webpage/common/functionIconStyleList.jsp</value>
 						<value>timeTaskController.do?remoteTask</value>
+						
+						
 						
 					</list>
 				</property>
